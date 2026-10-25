@@ -1,5 +1,6 @@
 <!DOCTYPE html>
     <style>
+        /*Some CSS wizardry to make the ui look like it should, don't ask me how this works, I don't know*/
         #background {
             width:800px;
             height:800px;
@@ -37,6 +38,11 @@
         }
     </style>
     <body>
+        <!--Unfortunately the javascript was never implemented into the frontend-->
+        <!--My team had to go before I had finished the frontend and I have little experience with javascript-->
+        <!--So I don't really know how their program worked and as such had no clue how to implement it-->
+        <!--And while I can say with confidence that none of the frontend is vibecoded...-->
+        <!--I unfortunately cannot say the same about the backend-->
         <div id="background"; style="background-color:#bdbdbd";>
             <div id="titleBar"; style="background-color: #010077;">
                 <img src="untitled-Paint.png"; id="fileName">
@@ -45,7 +51,50 @@
             <div class="mainArea">
                 <img src="paintTools.png"; id="tools">
                 <div id="board"; style="background-color:#FFFFFF";>
-                    <img src="y2kopolyboard.png">
+                    <img src="y2kopolyboard.png"; usemap="#boardIDs">
+                    <map>
+                        <!--Separates the board into the various tiles-->
+                        <area shape="rect" coords="0,510,100,600" id="tile0">
+                        <area shape="rect" coords="0,470,100,515" id="tile1">
+                        <area shape="rect" coords="0,430,100,470" id="tile2">
+                        <area shape="rect" coords="0,380,100,430" id="tile3">
+                        <area shape="rect" coords="0,340,100,380" id="tile4">
+                        <area shape="rect" coords="0,300,100,340" id="tile5">
+                        <area shape="rect" coords="0,250,100,300" id="tile6">
+                        <area shape="rect" coords="0,200,100,250" id="tile7">
+                        <area shape="rect" coords="0,165,100,200" id="tile8">
+                        <area shape="rect" coords="0,120,100,165" id="tile9">
+                        <area shape="rect" coords="0,0,110,120" id="tile10">
+                        <area shape="rect" coords="110,0,150,110" id="tile11">
+                        <area shape="rect" coords="160,0,200,100" id="tile12">
+                        <area shape="rect" coords="200,0,240,100" id="tile13">
+                        <area shape="rect" coords="250,0,290,100" id="tile14">
+                        <area shape="rect" coords="295,0,340,100" id="tile15">
+                        <area shape="rect" coords="340,0,380,100" id="tile16">
+                        <area shape="rect" coords="380,0,420,100" id="tile17">
+                        <area shape="rect" coords="420,0,460,100" id="tile18">
+                        <area shape="rect" coords="460,0,490,100" id="tile19">
+                        <area shape="rect" coords="500,0,600,100" id="tile20">
+                        <area shape="rect" coords="495,110,600,150" id="tile21">
+                        <area shape="rect" coords="495,150,600,190" id="tile22">
+                        <area shape="rect" coords="495,190,600,220" id="tile23">
+                        <area shape="rect" coords="495,220,600,265" id="tile24">
+                        <area shape="rect" coords="495,265,600,300" id="tile25">
+                        <area shape="rect" coords="495,300,600,360" id="tile26">
+                        <area shape="rect" coords="495,360,600,400" id="tile27">
+                        <area shape="rect" coords="495,400,600,460" id="tile28">
+                        <area shape="rect" coords="495,460,600,510" id="tile29">
+                        <area shape="rect" coords="500,500,600,600" id="tile30">
+                        <area shape="rect" coords="440,510,500,600" id="tile31">
+                        <area shape="rect" coords="385,510,440,600" id="tile32">
+                        <area shape="rect" coords="350,510,385,600" id="tile33">
+                        <area shape="rect" coords="305,510,350,600" id="tile34">
+                        <area shape="rect" coords="265,510,305,600" id="tile35">
+                        <area shape="rect" coords="230,510,265,600" id="tile36">
+                        <area shape="rect" coords="190,510,230,600" id="tile37">
+                        <area shape="rect" coords="150,510,190,600" id="tile38">
+                        <area shape="rect" coords="100,510,150,600" id="tile39">
+                    </map>
                 </div>
             </div>
         </div>

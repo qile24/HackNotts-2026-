@@ -12,7 +12,7 @@ let gameOver = false;
 
 const STARTING_MONEY = 1500;
 const GO_MONEY = 200;
-const MAX_PLAYERS = 6;
+const MAX_PLAYERS = 3;
 
 
 function movePlayer(player, steps) {

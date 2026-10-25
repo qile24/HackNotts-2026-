@@ -253,4 +253,4 @@ rollButton.addEventListener("click", function() {
 });
 
 
-showMessage("Add 2–6 players to begin Monopoly!");
+showMessage("Add 2–3 players to begin Monopoly!");
